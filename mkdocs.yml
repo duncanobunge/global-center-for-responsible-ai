@@ -1,0 +1,32 @@
+site_name: Global Center for Responsible AI
+site_url: https://<your-github-username>.github.io/global-center-for-responsible-ai
+site_author: Global Center for Responsible AI
+site_description: A platform for education, advocacy, and research on ethical and trustworthy artificial intelligence.
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.sections
+    - table-of-contents
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Blog:
+      - What is Responsible AI?: blog/2025-01-introduction.md
+      - Bias in Healthcare AI Models: blog/2025-01-ai-bias-healthcare.md
+      - AI Governance – Policies and Regulation: blog/2025-02-governance.md
+  - Resources:
+      - Policy Guides: resources/policy-guides.md
+      - Responsible AI Toolkits: resources/ai-toolkits.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
